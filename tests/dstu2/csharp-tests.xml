@@ -574,16 +574,8 @@
                     .select('m' + $this.substring(1,4) + $this.substring(5)) = 'metrosexual'</expression>
     <output type="boolean">true</output>
   </test>
-  <test name="CSharpTest0143" inputfile="fp-test-patient.xml">
-    <expression>today() &lt; @2016-07-29T00:00:00+02:00</expression>
-    <output type="boolean">true</output>
-  </test>
   <test name="CSharpTest0144" inputfile="fp-test-patient.xml">
     <expression>today() &gt; @2016-07-27T00:00:00+02:00</expression>
-    <output type="boolean">true</output>
-  </test>
-  <test name="CSharpTest0145" inputfile="fp-test-patient.xml">
-    <expression>today() = @2016-07-28</expression>
     <output type="boolean">true</output>
   </test>
   <test name="CSharpTest0146" inputfile="fp-test-patient.xml">
